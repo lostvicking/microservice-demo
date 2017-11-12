@@ -2,9 +2,13 @@
 Demo of Spring Boot Microservices, including: Eureka, Hystrix, Swagger UI
 
 3 Spring Boot Microservices: Eureka-Server, Bookstore-Service and Reading-Service
+
 Eureka-Server: discovery server, enables other microservices to call each other by service name
+
 Bookstore-Service: exposes /recommended GET method for getting book recommendations
+
 Reading-Service: exposes /to-read GET method which calls Bookstore-Service
+
 
 Run Eureka-Server like so:
 ```
