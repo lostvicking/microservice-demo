@@ -9,6 +9,11 @@ Bookstore-Service: exposes /recommended GET method for getting book recommendati
 Reading-Service: exposes /to-read GET method which calls Bookstore-Service  
 
 
+All projects can be compiled with Maven:
+´´´
+mvn clean install
+´´´
+
 Run Eureka-Server like so:
 ```
 java -jar target/eureka-server-1.0-SNAPSHOT.jar 
