@@ -2,11 +2,10 @@
 Demo of Spring Boot Microservices, including: Eureka, Hystrix, Swagger UI
 
 3 Spring Boot Microservices: Eureka-Server, Bookstore-Service and Reading-Service
+Java 8 only for now, there are some issues getting Sring Cloud dependencies to compile under Java 9.
 
 Eureka-Server: discovery server, enables other microservices to call each other by service name
-
 Bookstore-Service: exposes /recommended GET method for getting book recommendations
-
 Reading-Service: exposes /to-read GET method which calls Bookstore-Service
 
 
