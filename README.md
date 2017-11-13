@@ -10,9 +10,9 @@ Reading-Service: exposes /to-read GET method which calls Bookstore-Service
 
 
 All projects can be compiled with Maven:
-´´´
+```
 mvn clean install
-´´´
+```
 
 Run Eureka-Server like so:
 ```
