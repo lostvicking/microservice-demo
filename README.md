@@ -9,8 +9,8 @@ Bookstore-Service: exposes /recommended GET method for getting book recommendati
 Reading-Service: exposes /to-read GET method which calls Bookstore-Service  
 
 
-[Download Java 8 from here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-[Download Maven from here](https://maven.apache.org/download.cgi)
+[Download Java 8 from here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
+[Download Maven from here](https://maven.apache.org/download.cgi)  
 
 All projects can be compiled with Maven:
 ```
