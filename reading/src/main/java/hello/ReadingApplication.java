@@ -13,21 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.client.RestTemplate;
 import java.net.URI;
 
-
-@EnableCircuitBreaker
-@EnableDiscoveryClient
-@RestController
 @SpringBootApplication
 public class ReadingApplication {
-
-    @Autowired
-    private BookService bookService;
-
-
-    @RequestMapping(value = "/to-read", method= RequestMethod.GET)
-    public String toRead() {
-        return bookService.readingList();
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(ReadingApplication.class, args);
